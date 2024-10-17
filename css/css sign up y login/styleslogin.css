@@ -1,0 +1,91 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b; /* Fondo oscuro para un ambiente de juegos */
+    color: #f2f2f2; /* Texto claro para contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Sección del formulario */
+section {
+    background-color: #2a2a2a; /* Fondo ligeramente más claro para la caja del formulario */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    width: 350px;
+    text-align: center;
+}
+
+/* Título */
+h2 {
+    color: #f8a700; /* Color brillante para el título (naranja) */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #f2f2f2;
+}
+
+/* Estilo de los inputs */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #f2f2f2;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Botón de enviar */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f8a700;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #d88800;
+}
+
+/* Enlace a la página de registro */
+p {
+    margin-top: 15px;
+    color: #f2f2f2;
+    font-size: 0.9rem;
+}
+
+p a {
+    color: #f8a700;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 400px) {
+    section {
+        width: 90%;
+    }
+}
